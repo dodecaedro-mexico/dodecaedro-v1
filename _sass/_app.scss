@@ -1,0 +1,35 @@
+/* Top Bar */
+
+    .top-bar, .top-bar-section li:not(.has-form) a:not(.button), .top-bar.expanded .title-area {
+        background-color:  #000000;
+    }
+    /* Remove Dropdown Caret */
+    .top-bar-section .has-dropdown > a {padding-right: 15px !important;}
+    .top-bar-section .has-dropdown > a:after {border-color: transparent transparent transparent;}
+
+    .top-bar .title-area .name a {
+        letter-spacing: 0.5rem;
+    }
+    .top-bar-section #follow {
+    background-color: #333333;
+    }
+
+/* Footer */
+    
+    footer {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+
+    footer p {
+        margin: 0;
+        padding: 0;
+        font-size: 0.8rem;
+    }
+
+    footer .row div:last-child p {
+        float: right;
+    }
