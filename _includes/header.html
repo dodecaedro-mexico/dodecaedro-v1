@@ -18,13 +18,13 @@
                     <a id="follow" href="#">Follow</a>
                     <ul class="dropdown">
                         <li>
-                            <a href="#"><img src="assets/img/SVG/facebook-20-x-20.svg"/></a>
+                            <a href="#"><img src="{{ "/assets/img/SVG/facebook-20-x-20.svg" | prepend: site.baseurl }}"/></a>
                         </li>
                         <li>
-                            <a href="#"><img src="assets/img/SVG/twitter-20-x-20.svg"/></a>
+                            <a href="#"><img src="{{ "/assets/img/SVG/twitter-20-x-20.svg" | prepend: site.baseurl }}"/></a>
                         </li>
                         <li>
-                            <a href="#"><img src="assets/img/SVG/youtube_play-20-x20.svg"/></a>
+                            <a href="#"><img src="{{ "/assets/img/SVG/youtube_play-20-x20.svg" | prepend: site.baseurl }}"/></a>
                         </li>
                     </ul>    
                 </li>
@@ -35,49 +35,52 @@
 
             <ul class="right">
                 <li class="has-dropdown">
-                    <a href="#">Cine</a>
+                    <a href="{{ "/cine" | prepend: site.baseurl }}">Cine</a>
                     <ul class="dropdown">
-                        <li><a href="#">Reseñas</a></li>
-                        <li><a href="#">Cortometrajes</a></li>
-                        <li><a href="#">Tops</a></li>
-                        <li><a href="#">Eventos</a></li>
+                        <li><a href="{{ "/cine/#resenas" | prepend: site.baseurl }}">Reseñas</a></li>
+                        <li><a href="{{ "/cine/#cortometrajes" | prepend: site.baseurl }}">Cortometrajes</a></li>
+                        <li><a href="{{ "/cine/#tops" | prepend: site.baseurl }}">Tops</a></li>
+                        <li><a href="{{ "/cine/#invitados" | prepend: site.baseurl }}">Invitados</a></li>
+                        <li><a href="{{ "/cine/#eventos" | prepend: site.baseurl }}">Eventos</a></li>
                     </ul>
                 </li>
                 <li class="has-dropdown">
-                    <a href="#">Música</a>
+                    <a href="{{ "/musica" | prepend: site.baseurl }}">Música</a>
                     <ul class="dropdown">
-                        <li><a href="#">Bandas Locales</a></li>
-                        <li><a href="#">Recomendaciones</a></li>
-                        <li><a href="#">Reseñas</a></li>
-                        <li><a href="#">Tops</a></li>
-                        <li><a href="#">Eventos</a></li>
+                        <li><a href="{{ "/musica/#invitados" | prepend: site.baseurl }}">Invitados</a></li>
+                        <li><a href="{{ "/musica/#recomendaciones" | prepend: site.baseurl }}">Recomendaciones</a></li>
+                        <li><a href="{{ "/musica/#resenas" | prepend: site.baseurl }}">Reseñas</a></li>
+                        <li><a href="{{ "/musica/#tops" | prepend: site.baseurl }}">Tops</a></li>
+                        <li><a href="{{ "/musica/#eventos" | prepend: site.baseurl }}">Eventos</a></li>
                     </ul>
                 </li>
                 <li class="has-dropdown">
-                    <a href="#">Foto</a>
+                    <a href="{{ "/foto" | prepend: site.baseurl }}">Foto</a>
                     <ul class="dropdown">
-                        <li><a href="#">Photowalls</a></li>
-                        <li><a href="#">Galerías Gif</a></li>
-                        <li><a href="#">Tops</a></li>
-                        <li><a href="#">Eventos</a></li>
+                        <li><a href="{{ "/foto/#photowalls" | prepend: site.baseurl }}">Photowalls</a></li>
+                        <li><a href="{{ "/foto/#gif-walls" | prepend: site.baseurl }}">Gif-walls</a></li>
+                        <li><a href="{{ "/foto/#tops" | prepend: site.baseurl }}">Tops</a></li>
+                        <li><a href="{{ "/foto/#invitados" | prepend: site.baseurl }}">Invitados</a></li>
+                        <li><a href="{{ "/foto/#eventos" | prepend: site.baseurl }}">Eventos</a></li>
                     </ul>
                 </li>
                 <li class="has-dropdown">
-                    <a href="#">Pintura</a>
+                    <a href="{{ "/graphique" | prepend: site.baseurl }}">Graphique</a>
                     <ul class="dropdown">
-                        <li><a href="#">Colecciones</a></li>
-                        <li><a href="#">Locales</a></li>
-                        <li><a href="#">Tops</a></li>
-                        <li><a href="#">Eventos</a></li>
+                        <li><a href="{{ "/graphique/#colecciones" | prepend: site.baseurl }}">Colecciones</a></li>
+                        <li><a href="{{ "/graphique/#pintura" | prepend: site.baseurl }}">Pintura</a></li>
+                        <li><a href="{{ "/graphique/#dibujo" | prepend: site.baseurl }}">Dibujo</a></li>
+                        <li><a href="{{ "/graphique/#invitados" | prepend: site.baseurl }}">Invitados</a></li>
+                        <li><a href="{{ "/graphique/#eventos" | prepend: site.baseurl }}">Eventos</a></li>
                     </ul>
                 </li>
                 <li class="has-dropdown">
-                    <a href="#">Letras</a>
+                    <a href="{{ "/poe-sia" | prepend: site.baseurl }}">Poe-sía</a>
                     <ul class="dropdown">
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#">Tops</a></li>
-                        <li><a href="#">Eventos</a></li>
+                        <li><a href="{{ "/poe-sia/#historias" | prepend: site.baseurl }}">Historias</a></li>
+                        <li><a href="{{ "/poe-sia/#ensayos" | prepend: site.baseurl }}">Ensayos</a></li>
+                        <li><a href="{{ "/poe-sia/#dodecaedro-recomienda" | prepend: site.baseurl }}">Dodecaedro recomienda</a></li>
+                        <li><a href="{{ "/poe-sia/#eventos" | prepend: site.baseurl }}">Eventos</a></li>
                     </ul>
                 </li>
             </ul>
