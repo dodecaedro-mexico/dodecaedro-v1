@@ -1,0 +1,128 @@
+---
+layout: page
+title: Poe-sía
+---
+
+<div id="historias">
+	
+	<hr>
+	<h1>Historias</h1>
+
+	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
+
+		{% for post in site.categories.poesia-historias limit:100 %}
+
+				<li>
+					<a href="{{ post.url }}">			
+						<p>
+							<img src="{{ post.image }}">
+						</p>
+						<p>
+							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+							<p>{{ post.excerpt }}</p>
+						</p>
+					</a>
+				</li>
+
+		{% endfor %}
+
+	</ul>
+
+	<div id="ensayos"></div>
+	
+	<hr>
+	<h1>Ensayos</h1>
+
+	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
+
+		{% for post in site.categories.poesia-ensayos limit:100 %}
+
+				<li>
+					<a href="{{ post.url }}">			
+						<p>
+							<img src="{{ post.image }}">
+						</p>
+						<p>
+							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+							<p>{{ post.excerpt }}</p>
+						</p>
+					</a>
+				</li>
+
+		{% endfor %}
+
+	</ul>
+
+	<div id="dodecaedro-recomienda"></div>
+	<hr>
+	<h1>Dodecaedro Recomienda</h1>
+	
+	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
+
+		{% for post in site.categories.poesia-dodecaedro-recomienda limit:100 %}
+
+				<li>
+					<a href="{{ post.url }}">			
+						<p>
+							<img src="{{ post.image }}">
+						</p>
+						<p>
+							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+							<p>{{ post.excerpt }}</p>
+						</p>
+					</a>
+				</li>
+
+		{% endfor %}
+
+	</ul>
+
+	<div id="invitados"></div>
+	<hr>
+	<h1>Invitados</h1>
+	
+	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
+
+		{% for post in site.categories.poesia-invitados limit:100 %}
+
+				<li>
+					<a href="{{ post.url }}">			
+						<p>
+							<img src="{{ post.image }}">
+						</p>
+						<p>
+							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+							<p>{{ post.excerpt }}</p>
+						</p>
+					</a>
+				</li>
+
+		{% endfor %}
+
+	</ul>
+
+	<div id="eventos"></div>
+	<hr>
+	<h1>Eventos</h1>
+	
+	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
+
+		{% for post in site.categories.poesia-eventos limit:100 %}
+
+				<li>
+					<a href="{{ post.url }}">			
+						<p>
+							<img src="{{ post.image }}">
+						</p>
+						<p>
+							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+							<p>{{ post.excerpt }}</p>
+						</p>
+					</a>
+				</li>
+
+		{% endfor %}
+
+	</ul>
+
+</div>
