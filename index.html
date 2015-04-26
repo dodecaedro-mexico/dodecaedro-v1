@@ -2,118 +2,54 @@
 layout: page
 ---
    
-    <br>
-    <div class="alert-box secondary">
-        Ejemplo de noticia: Lorem ipsum dolor sit amet, consectetur...
-    </div>
-
-    <h2>Tendencias</h2>
+    <h2>De todo</h2>
     <hr>
 
     <ul class="small-block-grid-1 medium-block-grid-4">
-        <li>
-            <a href="#"> 
-                <img src="assets/img/yayoi_kuzana.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Yayoi Kuzana</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/kris-meza.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Kris Meza</h3>
-            <p>
-                Entrevista  lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/xavier-dolan-mommy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Reseña Mommy</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/larry-clark.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Larry Clark</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>        
+    
+        {% for post in site.posts limit:10 %}
+    
+            <li>
+                <a href="{{ post.url }}"> 
+                    <img src="{{ post.image }}" alt="{{ post.title }}"/>
+                </a>
+            </li>
+            <li>
+                <h3>{{ post.title }}</h3>
+                <p>
+                   {{ post.excerpt }}
+                </p>
+                <a href="{{ post.url }}">Leer más...</a>
+            </li>
+    
+        {% endfor %}
+
     </ul>
 
     <br>
+    
     <h2>Cine</h2>
     <hr>
 
     <ul class="small-block-grid-1 medium-block-grid-4">
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>        
+    
+        {% for post in site.categories.cine limit:5 %}
+    
+            <li>
+                <a href="{{ post.url }}"> 
+                    <img src="{{ post.image }}" alt="{{ post.title }}"/>
+                </a>
+            </li>
+            <li>
+                <h3>{{ post.title }}</h3>
+                <p>
+                   {{ post.excerpt }}
+                </p>
+                <a href="{{ post.url }}">Leer más...</a>
+            </li>
+    
+        {% endfor %}
+
     </ul>
 
     <br>
@@ -121,54 +57,24 @@ layout: page
     <hr>
 
     <ul class="small-block-grid-1 medium-block-grid-4">
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>        
+    
+        {% for post in site.categories.musica limit:5 %}
+    
+            <li>
+                <a href="{{ post.url }}"> 
+                    <img src="{{ post.image }}" alt="{{ post.title }}"/>
+                </a>
+            </li>
+            <li>
+                <h3>{{ post.title }}</h3>
+                <p>
+                   {{ post.excerpt }}
+                </p>
+                <a href="{{ post.url }}">Leer más...</a>
+            </li>
+    
+        {% endfor %}
+
     </ul>
 
     <br>
@@ -176,54 +82,24 @@ layout: page
     <hr>
 
     <ul class="small-block-grid-1 medium-block-grid-4">
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>        
+    
+        {% for post in site.categories.foto limit:5 %}
+    
+            <li>
+                <a href="{{ post.url }}"> 
+                    <img src="{{ post.image }}" alt="{{ post.title }}"/>
+                </a>
+            </li>
+            <li>
+                <h3>{{ post.title }}</h3>
+                <p>
+                   {{ post.excerpt }}
+                </p>
+                <a href="{{ post.url }}">Leer más...</a>
+            </li>
+    
+        {% endfor %}
+
     </ul>
 
     <br>
@@ -231,54 +107,24 @@ layout: page
     <hr>
 
     <ul class="small-block-grid-1 medium-block-grid-4">
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>        
+    
+        {% for post in site.categories.pintura limit:5 %}
+    
+            <li>
+                <a href="{{ post.url }}"> 
+                    <img src="{{ post.image }}" alt="{{ post.title }}"/>
+                </a>
+            </li>
+            <li>
+                <h3>{{ post.title }}</h3>
+                <p>
+                   {{ post.excerpt }}
+                </p>
+                <a href="{{ post.url }}">Leer más...</a>
+            </li>
+    
+        {% endfor %}
+
     </ul>
 
     <br>
@@ -286,52 +132,22 @@ layout: page
     <hr>
 
     <ul class="small-block-grid-1 medium-block-grid-4">
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>
-        <li>
-            <a href="#"> 
-                <img src="assets/img/dummy.jpg" alt="Yayoi Kuzana"/>
-            </a>
-        </li>
-        <li>
-            <h3>Lorem Ipsum</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-            <a href="#">Leer más...</a>
-        </li>        
+    
+        {% for post in site.categories.letras limit:5 %}
+    
+            <li>
+                <a href="{{ post.url }}"> 
+                    <img src="{{ post.image }}" alt="{{ post.title }}"/>
+                </a>
+            </li>
+            <li>
+                <h3>{{ post.title }}</h3>
+                <p>
+                   {{ post.excerpt }}
+                </p>
+                <a href="{{ post.url }}">Leer más...</a>
+            </li>
+    
+        {% endfor %}
+
     </ul>
