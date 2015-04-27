@@ -31,10 +31,10 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-grids="true"
-     inkscape:window-width="1280"
-     inkscape:window-height="668"
-     inkscape:window-x="57"
-     inkscape:window-y="25"
+     inkscape:window-width="1366"
+     inkscape:window-height="741"
+     inkscape:window-x="0"
+     inkscape:window-y="720"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -63,27 +63,27 @@
      transform="translate(0,-1007.3622)">
     <text
        xml:space="preserve"
-       style="font-size:19.15876579px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-       x="10.715227"
-       y="1013.7232"
+       style="font-size:23.59456443999999919px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="12.713005"
+       y="826.22748"
        id="text2985"
        sodipodi:linespacing="125%"
-       transform="scale(0.97818128,1.0223054)"><tspan
+       transform="scale(0.79428237,1.2589981)"><tspan
          sodipodi:role="line"
-         x="10.715227"
-         y="1013.7232"
+         x="12.713005"
+         y="826.22748"
          id="tspan2989">DODECAEDRO</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:23.05742264px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="121.16863"
-       y="1212.072"
+       style="font-size:23.05742263999999864px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="119.68945"
+       y="1216.9053"
        id="text2985-4"
        sodipodi:linespacing="125%"
        transform="scale(1.1696938,0.8549246)"><tspan
          sodipodi:role="line"
-         x="121.16863"
-         y="1212.072"
+         x="119.68945"
+         y="1216.9053"
          id="tspan3014">MX</tspan></text>
     <path
        sodipodi:type="arc"
@@ -94,6 +94,6 @@
        sodipodi:rx="9.9363661"
        sodipodi:ry="10.882687"
        d="m 825.19155,468.24203 a 9.9363661,10.882687 0 1 1 -19.87273,0 9.9363661,10.882687 0 1 1 19.87273,0 z"
-       transform="matrix(0.27535978,0,0,0.25141545,-79.381694,917.30378)" />
+       transform="matrix(0.27535978,0,0,0.25141545,-81.985315,919.98766)" />
   </g>
 </svg>
