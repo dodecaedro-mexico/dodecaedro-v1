@@ -4,283 +4,125 @@ title: Graphique
 ---
 
 <div id="colecciones">
+	
 	<hr>
 	<h1>Colecciones</h1>
+
 	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
+
+		{% for post in site.categories.graphique-colecciones limit:100 %}
+
+				<li>
+					<a href="{{ post.url }}">			
+						<p>
+							<img src="{{ post.image }}">
+						</p>
+						<p>
+							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+							<p>{{ post.excerpt }}</p>
+						</p>
+					</a>
+				</li>
+
+		{% endfor %}
+
 	</ul>
-	<div id="Pintura"></div>
+
+	<div id="pintura"></div>
+	
 	<hr>
-	<h1>Dibujo</h1>
+	<h1>Pintura</h1>
+
 	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
+
+		{% for post in site.categories.graphique-pintura limit:100 %}
+
+				<li>
+					<a href="{{ post.url }}">			
+						<p>
+							<img src="{{ post.image }}">
+						</p>
+						<p>
+							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+							<p>{{ post.excerpt }}</p>
+						</p>
+					</a>
+				</li>
+
+		{% endfor %}
+
 	</ul>
+
+	<div id="sketching"></div>
+	<hr>
+	<h1>Sketching</h1>
+	
+	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
+
+		{% for post in site.categories.graphique-sketching limit:100 %}
+
+				<li>
+					<a href="{{ post.url }}">			
+						<p>
+							<img src="{{ post.image }}">
+						</p>
+						<p>
+							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+							<p>{{ post.excerpt }}</p>
+						</p>
+					</a>
+				</li>
+
+		{% endfor %}
+
+	</ul>
+
 	<div id="invitados"></div>
 	<hr>
 	<h1>Invitados</h1>
+	
 	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
+
+		{% for post in site.categories.graphique-invitados limit:100 %}
+
+				<li>
+					<a href="{{ post.url }}">			
+						<p>
+							<img src="{{ post.image }}">
+						</p>
+						<p>
+							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+							<p>{{ post.excerpt }}</p>
+						</p>
+					</a>
+				</li>
+
+		{% endfor %}
+
 	</ul>
+
 	<div id="eventos"></div>
 	<hr>
 	<h1>Eventos</h1>
+	
 	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
-		<li>
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-			<img src="{{ "/assets/img/dummy.jpg" | prepend: site.baseurl }}">
-		</li>
+
+		{% for post in site.categories.graphique-eventos limit:100 %}
+
+				<li>
+					<a href="{{ post.url }}">			
+						<p>
+							<img src="{{ post.image }}">
+						</p>
+						<p>
+							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+							<p>{{ post.excerpt }}</p>
+						</p>
+					</a>
+				</li>
+
+		{% endfor %}
+
 	</ul>
+
 </div>

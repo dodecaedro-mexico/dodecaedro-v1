@@ -11,5 +11,8 @@ permalink: pretty
 # Build settings
 markdown: kramdown
 
+image: /assets/img/dummy.jpg
+
 gems:
   - jekyll-sitemap
+  - jekyll-auto-image

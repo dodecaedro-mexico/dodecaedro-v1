@@ -1,16 +1,18 @@
 ---
 layout: page
-title: Música
+title: Fotografía
 ---
 
 <div id="invitados">
+
+	<div id="photowalls"></div>
 	
 	<hr>
-	<h1>Invitados</h1>
+	<h1>Photowalls</h1>
 
 	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
 
-		{% for post in site.categories.musica-invitados limit:100 %}
+		{% for post in site.categories.fotografia-photowalls limit:100 %}
 
 				<li>
 					<a href="{{ post.url }}">			
@@ -28,38 +30,13 @@ title: Música
 
 	</ul>
 
-	<div id="recomendaciones"></div>
-	
+	<div id="gifwalls"></div>
 	<hr>
-	<h1>Recomendaciones</h1>
-
-	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
-
-		{% for post in site.categories.musica-recomendaciones limit:100 %}
-
-				<li>
-					<a href="{{ post.url }}">			
-						<p>
-							<img src="{{ post.image }}">
-						</p>
-						<p>
-							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
-							<p>{{ post.excerpt }}</p>
-						</p>
-					</a>
-				</li>
-
-		{% endfor %}
-
-	</ul>
-
-	<div id="resenas"></div>
-	<hr>
-	<h1>Reseñas</h1>
+	<h1>Gif-walls</h1>
 	
 	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
 
-		{% for post in site.categories.musica-resenas limit:100 %}
+		{% for post in site.categories.fotografia-gifwalls limit:100 %}
 
 				<li>
 					<a href="{{ post.url }}">			
@@ -83,7 +60,7 @@ title: Música
 	
 	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
 
-		{% for post in site.categories.musica-tops limit:100 %}
+		{% for post in site.categories.fotografia-tops limit:100 %}
 
 				<li>
 					<a href="{{ post.url }}">			
@@ -101,13 +78,37 @@ title: Música
 
 	</ul>
 
+	<hr>
+	<h1>Invitados</h1>
+
+	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
+
+		{% for post in site.categories.fotografia-invitados limit:100 %}
+
+				<li>
+					<a href="{{ post.url }}">			
+						<p>
+							<img src="{{ post.image }}">
+						</p>
+						<p>
+							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+							<p>{{ post.excerpt }}</p>
+						</p>
+					</a>
+				</li>
+
+		{% endfor %}
+
+	</ul>
+
+
 	<div id="eventos"></div>
 	<hr>
 	<h1>Eventos</h1>
 	
 	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
 
-		{% for post in site.categories.musica-eventos limit:100 %}
+		{% for post in site.categories.fotografia-eventos limit:100 %}
 
 				<li>
 					<a href="{{ post.url }}">			
