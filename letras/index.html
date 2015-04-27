@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Poe-sía
+title: Letras
 ---
 
 <div id="historias">
@@ -10,7 +10,7 @@ title: Poe-sía
 
 	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
 
-		{% for post in site.categories.poesia-historias limit:100 %}
+		{% for post in site.categories.letras-historias limit:100 %}
 
 				<li>
 					<a href="{{ post.url }}">			
@@ -39,7 +39,36 @@ title: Poe-sía
 
 	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
 
-		{% for post in site.categories.poesia-ensayos limit:100 %}
+		{% for post in site.categories.letras-ensayos limit:100 %}
+
+				<li>
+					<a href="{{ post.url }}">			
+						<p>
+							{% if post.thumbnail %}
+                       			<img src="{{ post.thumbnail }}" align="center" />
+	                    	{% else %}
+    	                    	<img src="/assets/img/dummy.jpg" align="center" />
+        	            	{% endif %}
+						</p>
+						<p>
+							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+							<p>{{ post.excerpt }}</p>
+						</p>
+					</a>
+				</li>
+
+		{% endfor %}
+
+	</ul>
+
+	<div id="poesia"></div>
+	
+	<hr>
+	<h1>Poe-sía</h1>
+
+	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
+
+		{% for post in site.categories.letras-poesia limit:100 %}
 
 				<li>
 					<a href="{{ post.url }}">			
@@ -67,7 +96,7 @@ title: Poe-sía
 	
 	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
 
-		{% for post in site.categories.poesia-dodecaedro-recomienda limit:100 %}
+		{% for post in site.categories.letras-dodecaedro-recomienda limit:100 %}
 
 				<li>
 					<a href="{{ post.url }}">			
@@ -95,7 +124,7 @@ title: Poe-sía
 	
 	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
 
-		{% for post in site.categories.poesia-invitados limit:100 %}
+		{% for post in site.categories.letras-invitados limit:100 %}
 
 				<li>
 					<a href="{{ post.url }}">			
@@ -123,7 +152,7 @@ title: Poe-sía
 	
 	<ul class="masonry small-block-grid-2 medium-block-grid-4 large-block-grid-6">
 
-		{% for post in site.categories.poesia-eventos limit:100 %}
+		{% for post in site.categories.letras-eventos limit:100 %}
 
 				<li>
 					<a href="{{ post.url }}">			

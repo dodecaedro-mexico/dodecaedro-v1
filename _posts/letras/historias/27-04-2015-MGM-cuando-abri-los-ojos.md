@@ -2,9 +2,10 @@
 layout: post
 title:  Cuando Abrí Los Ojos
 date:   27-04-2015
-categories: [ 'poesia', 'poesia-historias' ]
+categories: [ 'letras', 'letras-historias' ]
 author: MGM
 excerpt: Nunca antes había presenciado una oscuridad tan absoluta. Recuerdo noches ausentes de luna y estrellas que...
+thumbnail: /assets/img/posts/letras-historias/27-04-2015-cuando-abri-los-ojos.jpg
 ---
 
 Cuando abrí mis ojos, sólo una cosa cruzó mi mente: nunca antes había presenciado una oscuridad tan absoluta. Recuerdo noches ausentes de luna y estrellas que, en comparación con esto, lucían como mediodía del verano.

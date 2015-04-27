@@ -2,9 +2,10 @@
 layout: post
 title:  La Post-Historia
 date:   26-04-2015
-categories: [ 'poesia', 'poesia-ensayos' ]
+categories: [ 'letras', 'letras-ensayos' ]
 author: Sebastián López
 excerpt: Nunca antes había presenciado una oscuridad tan absoluta. Recuerdo noches ausentes de luna y estrellas que...
+thumbnail: /assets/img/posts/letras-ensayos/26-04-2015-la-post-historia-1.jpg
 ---
 
 Hoy en día todo lo que ocurre es registrado como historia, volviéndose parte del estudio de los acontecimientos y hechos del pasado y que han constituido el desarrollo humano, pero ¿cuándo empieza la historia? 

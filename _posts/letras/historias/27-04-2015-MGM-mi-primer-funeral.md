@@ -2,7 +2,7 @@
 layout: post
 title:  Mi Primer Funeral
 date:   27-04-2015
-categories: [ 'poesia', 'poesia-historias' ]
+categories: [ 'letras', 'letras-historias' ]
 author: MGM
 excerpt: Hoy asistí a mi primer funeral. En realidad jamás me hizo ilusión acudir a uno...
 ---
