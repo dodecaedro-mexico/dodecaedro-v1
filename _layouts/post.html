@@ -5,8 +5,7 @@ layout: default
 <div class="row">
 
   <div class="small-12 medium-8 columns">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{% if page.author %}{{ page.author }}{% endif %}</p>
+    <h1>{{ page.title }}</h1>
     <article>
       {{ content }}
     </article>
@@ -26,6 +25,7 @@ layout: default
     <p>
       <br><br>
       <img src="/assets/img/autores/{{ page.author }}.jpg" alt="{{ page.author }}">
+      <a href="/autores/{{ page.author }}/">{% if page.author %}{{ page.author }}{% endif %}</a>
     </p>
     <h4>Te puede interesar...</h4>
     <hr>
