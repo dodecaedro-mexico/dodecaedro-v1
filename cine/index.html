@@ -15,7 +15,11 @@ title: Cine
 				<li>
 					<a href="{{ post.url }}">			
 						<p>
-							<img src="{{ post.image }}">
+							{% if post.thumbnail %}
+                       			<img src="{{ post.thumbnail }}" align="center" />
+	                    	{% else %}
+    	                    	<img src="/assets/img/dummy.jpg" align="center" />
+        	            	{% endif %}
 						</p>
 						<p>
 							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
@@ -40,7 +44,11 @@ title: Cine
 				<li>
 					<a href="{{ post.url }}">			
 						<p>
-							<img src="{{ post.image }}">
+							{% if post.thumbnail %}
+                       			<img src="{{ post.thumbnail }}" align="center" />
+	                    	{% else %}
+    	                    	<img src="/assets/img/dummy.jpg" align="center" />
+        	            	{% endif %}
 						</p>
 						<p>
 							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
@@ -64,7 +72,11 @@ title: Cine
 				<li>
 					<a href="{{ post.url }}">			
 						<p>
-							<img src="{{ post.image }}">
+							{% if post.thumbnail %}
+                       			<img src="{{ post.thumbnail }}" align="center" />
+	                    	{% else %}
+    	                    	<img src="/assets/img/dummy.jpg" align="center" />
+        	            	{% endif %}
 						</p>
 						<p>
 							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
@@ -88,7 +100,11 @@ title: Cine
 				<li>
 					<a href="{{ post.url }}">			
 						<p>
-							<img src="{{ post.image }}">
+							{% if post.thumbnail %}
+                       			<img src="{{ post.thumbnail }}" align="center" />
+	                    	{% else %}
+    	                    	<img src="/assets/img/dummy.jpg" align="center" />
+        	            	{% endif %}
 						</p>
 						<p>
 							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
@@ -112,7 +128,11 @@ title: Cine
 				<li>
 					<a href="{{ post.url }}">			
 						<p>
-							<img src="{{ post.image }}">
+							{% if post.thumbnail %}
+                       			<img src="{{ post.thumbnail }}" align="center" />
+	                    	{% else %}
+    	                    	<img src="/assets/img/dummy.jpg" align="center" />
+        	            	{% endif %}
 						</p>
 						<p>
 							<a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
