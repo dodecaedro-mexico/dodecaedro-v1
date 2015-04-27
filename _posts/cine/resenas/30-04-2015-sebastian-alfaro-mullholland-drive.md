@@ -5,6 +5,7 @@ categories: [ cine, cine-resenas ]
 title: Mullholland Drive
 excerpt: Algo tan hermoso como un sueño y tan turbio como una pesadilla
 author: Sebastián Alfaro
+thumbnail: /assets/img/posts/cine-resenas/30-04-2015-mullholland-drive-1.jpg
 ---
 
 Es sabido que Mulholland Dr. había sido concebida como una serie de televisión. Rechazado por ABC, David Lynch decidió hacerla un film. Y es así como nace la mejor película de Lynch, algo tan hermoso como un sueño y tan turbio como una pesadilla;la mezcla perfecta de lo surreal, el film noir y los deseos más profundos del ser humano.
