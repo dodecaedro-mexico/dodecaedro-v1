@@ -39,13 +39,14 @@ layout: default
     <p>
       <br><br>
       <img src="/assets/img/autores/{{ page.author }}.jpg" alt="{{ page.author }}">
+      <hr>
       <a href="/autores/{{ page.author }}/">{% if page.author %}{{ page.author }}{% endif %}</a>
+      <hr>
     </p>
     <h4>Te puede interesar...</h4>
     <hr>
     <p>
-      {% for post in site.related_posts %}
-        <hr>
+      {% for post in site.related_posts limit:3 %}
         <a href="{{ post.url }}">
           <p>
             {% if post.thumbnail %}
@@ -57,6 +58,7 @@ layout: default
           <p>
             {{ post.title }}
           </p>
+          <hr>
         </a>
       {% endfor %}
     </p>
