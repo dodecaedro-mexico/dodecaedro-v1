@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -63,7 +63,7 @@
      transform="translate(0,-1007.3622)">
     <text
        xml:space="preserve"
-       style="font-size:23.59456443999999919px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:23.59456443999999919px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        x="12.713005"
        y="826.22748"
        id="text2985"
@@ -75,7 +75,7 @@
          id="tspan2989">DODECAEDRO</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:23.05742263999999864px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       style="font-size:23.05742263999999864px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
        x="119.68945"
        y="1216.9053"
        id="text2985-4"
@@ -87,13 +87,13 @@
          id="tspan3014">MX</tspan></text>
     <path
        sodipodi:type="arc"
-       style="fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
        id="path3788"
        sodipodi:cx="815.25519"
        sodipodi:cy="468.24203"
        sodipodi:rx="9.9363661"
        sodipodi:ry="10.882687"
-       d="m 825.19155,468.24203 a 9.9363661,10.882687 0 1 1 -19.87273,0 9.9363661,10.882687 0 1 1 19.87273,0 z"
+       d="m 825.19155,468.24203 c 0,6.01035 -4.44866,10.88269 -9.93636,10.88269 -5.48771,0 -9.93637,-4.87234 -9.93637,-10.88269 0,-6.01034 4.44866,-10.88268 9.93637,-10.88268 5.4877,0 9.93636,4.87234 9.93636,10.88268 z"
        transform="matrix(0.27535978,0,0,0.25141545,-81.985315,919.98766)" />
   </g>
 </svg>
