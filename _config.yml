@@ -11,3 +11,18 @@ markdown: kramdown
 
 gems:
   - jekyll-sitemap
+
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: subl
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/username.github.com/
