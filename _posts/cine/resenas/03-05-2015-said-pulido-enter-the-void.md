@@ -65,4 +65,4 @@ La escena más épica fue la del LOVE HOTEL, es bastante raro e inquietante pero
 * La historia es fría
 * No hay mucho que aprender de la película, solo te muestra crudeza y arte
 
-Veredicto 9/10
+**Veredicto** 9/10
