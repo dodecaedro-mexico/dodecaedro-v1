@@ -5,7 +5,7 @@ date:   26-04-2015
 categories: [ 'letras', 'letras-ensayos', 'graphique', 'graphique-pintura' ]
 author: Sebastián López
 excerpt: Un ensayo que indaga el arte revolucionario mexicano y lo propone como motivo de orgullo nacional.
-thumbnail: /assets/img/posts/letras-ensayos/26-04-2015-muralismo-mexicano-1.jpg
+thumbnail: /assets/img/posts/letras-ensayos/26-04-2015-muralismo-mexicano-thumb.jpg
 ---
 
 Me he vuelto consiente de que el hablar de historia de México a mucha gente no le agrada o simplemente no le parece interesante aunque ésta sea muy enriquecedora. Por lo general se habla mucho de cosas como la Independencia, la Revolución, la Conquista, etc. pero muy rara vez he logrado escuchar a alguien hablar de lo positivo de la historia mexicana. Al principio pensé en estudiar la ideología conservadora para así llegar al “por qué” de algunas de las cuestiones históricas mexicanas más importantes, pero me di cuenta de que caería en el mismo vicio que muchos otros escritores, así que me decidí por escribir algo positivo, algo que nos enorgullezca y enriquezca como mexicanos, el muralismo.
