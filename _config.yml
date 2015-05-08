@@ -32,7 +32,7 @@ prose:
   siteurl: 'http://dodecaedro.mx'
   media: 'assets/img'
   metadata:
-    _posts/cine/resenas:
+    _posts/Cine/Reseñas:
       - name: "title"
         field:
           element: "text"
@@ -67,7 +67,7 @@ prose:
             value: "Sebastián López"
             name: "Dodecaedro"
             value: "Dodecaedro"
-    _posts/foto/gifwalls:
+    _posts/Fotografía/Gifwalls:
       - name: "title"
         field:
           element: "text"
@@ -102,7 +102,7 @@ prose:
             value: "Sebastián López"
             name: "Dodecaedro"
             value: "Dodecaedro"
-    _posts/letras/ensayos:
+    _posts/Letras/Ensayos:
       - name: "title"
         field:
           element: "text"
@@ -137,7 +137,7 @@ prose:
             value: "Sebastián López"
             name: "Dodecaedro"
             value: "Dodecaedro"
-    _posts/letras/historias:
+    _posts/Letras/Historias:
       - name: "title"
         field:
           element: "text"
