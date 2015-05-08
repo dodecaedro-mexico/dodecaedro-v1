@@ -40,8 +40,10 @@ prose:
       - name: "published"
         field:
           element: "select"
+          label: "Estado del artículo:"
+          help: "¿Está listo el artículo para la página?"
           options:
-            - name: "No Publicado"
+            - name: "Sin publicar"
               value: "false"
             - name: "Publicado"
               value: "true"
@@ -83,8 +85,10 @@ prose:
       - name: "published"
         field:
           element: "select"
+          label: "Estado del artículo:"
+          help: "¿Está listo el artículo para la página?"
           options:
-            - name: "No Publicado"
+            - name: "Sin publicar"
               value: "false"
             - name: "Publicado"
               value: "true"
@@ -126,8 +130,10 @@ prose:
       - name: "published"
         field:
           element: "select"
+          label: "Estado del artículo:"
+          help: "¿Está listo el artículo para la página?"
           options:
-            - name: "No Publicado"
+            - name: "Sin publicar"
               value: "false"
             - name: "Publicado"
               value: "true"
@@ -169,8 +175,10 @@ prose:
       - name: "published"
         field:
           element: "select"
+          label: "Estado del artículo:"
+          help: "¿Está listo el artículo para la página?"
           options:
-            - name: "No Publicado"
+            - name: "Sin publicar"
               value: "false"
             - name: "Publicado"
               value: "true"
