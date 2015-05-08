@@ -26,3 +26,157 @@ transfer:
   settings: -av
   source: _site/
   destination: ~/Git/username.github.com/
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://dodecaedro.mx'
+  media: 'assets/img'
+  metadata:
+    _posts/cine/resenas:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Título"
+          value: ""
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "categories"
+         field:
+          element: "hidden"
+          value: "[ 'cine', 'cine-resenas' ]"
+      - date: CURRENT_DATETIME
+      - name: "thumbnail"
+        field:
+          element: "text"
+          label: "Imagen de previsualización"
+          value: "/assets/img/mi-imagen.jpg"
+      - name: "author"
+        field:
+          element: "select"
+          label: "Tu Nombre o Dodecaedro si es un trabajo en equipo."
+          options:
+            name: "Said Pulido"
+            value: "Said Pulido"
+            name: "MGM"
+            value: "MGM"
+            name: "Maro"
+            value: "Maro"
+            name: "Sebastián Alfaro"
+            value: "Sebastián Alfaro"
+            name: "Sebastián López"
+            value: "Sebastián López"
+            name: "Dodecaedro"
+            value: "Dodecaedro"
+    _posts/foto/gifwalls:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Título"
+          value: ""
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "wall"
+      - name: "categories"
+         field:
+          element: "hidden"
+          value: "[ 'foto', 'foto-gifwall' ]"
+      - date: CURRENT_DATETIME
+      - name: "thumbnail"
+        field:
+          element: "text"
+          label: "Imagen de previsualización"
+          value: "/assets/img/mi-imagen.jpg"
+      - name: "author"
+        field:
+          element: "select"
+          label: "Tu Nombre o Dodecaedro si es un trabajo en equipo."
+          options:
+            name: "Said Pulido"
+            value: "Said Pulido"
+            name: "MGM"
+            value: "MGM"
+            name: "Maro"
+            value: "Maro"
+            name: "Sebastián Alfaro"
+            value: "Sebastián Alfaro"
+            name: "Sebastián López"
+            value: "Sebastián López"
+            name: "Dodecaedro"
+            value: "Dodecaedro"
+    _posts/letras/ensayos:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Título"
+          value: ""
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "wall"
+      - name: "categories"
+         field:
+          element: "hidden"
+          value: "[ 'letras', 'letras-ensayos' ]"
+      - date: CURRENT_DATETIME
+      - name: "thumbnail"
+        field:
+          element: "text"
+          label: "Imagen de previsualización"
+          value: "/assets/img/mi-imagen.jpg"
+      - name: "author"
+        field:
+          element: "select"
+          label: "Tu Nombre o Dodecaedro si es un trabajo en equipo."
+          options:
+            name: "Said Pulido"
+            value: "Said Pulido"
+            name: "MGM"
+            value: "MGM"
+            name: "Maro"
+            value: "Maro"
+            name: "Sebastián Alfaro"
+            value: "Sebastián Alfaro"
+            name: "Sebastián López"
+            value: "Sebastián López"
+            name: "Dodecaedro"
+            value: "Dodecaedro"
+    _posts/letras/historias:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Título"
+          value: ""
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "wall"
+      - name: "categories"
+         field:
+          element: "hidden"
+          value: "[ 'letras', 'letras-historias' ]"
+      - date: CURRENT_DATETIME
+      - name: "thumbnail"
+        field:
+          element: "text"
+          label: "Imagen de previsualización"
+          value: "/assets/img/mi-imagen.jpg"
+      - name: "author"
+        field:
+          element: "select"
+          label: "Tu Nombre o Dodecaedro si es un trabajo en equipo."
+          options:
+            name: "Said Pulido"
+            value: "Said Pulido"
+            name: "MGM"
+            value: "MGM"
+            name: "Maro"
+            value: "Maro"
+            name: "Sebastián Alfaro"
+            value: "Sebastián Alfaro"
+            name: "Sebastián López"
+            value: "Sebastián López"
+            name: "Dodecaedro"
+            value: "Dodecaedro"
