@@ -1,5 +1,5 @@
 # Site settings
-title: DODECAEDRO.MX
+title: Dodecaedro.mx
 description: > # this means to ignore newlines until "baseurl:"
   Dodecaedro es una página comprometida con la cultura del cine, literatura, artes plásticas, y música local mexicana.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -46,7 +46,6 @@ prose:
          field:
           element: "hidden"
           value: "[ 'cine', 'cine-resenas' ]"
-      - date: CURRENT_DATETIME
       - name: "thumbnail"
         field:
           element: "text"
@@ -83,7 +82,6 @@ prose:
          field:
           element: "hidden"
           value: "[ 'foto', 'foto-gifwall' ]"
-      - date: CURRENT_DATETIME
       - name: "thumbnail"
         field:
           element: "text"
@@ -120,7 +118,6 @@ prose:
          field:
           element: "hidden"
           value: "[ 'letras', 'letras-ensayos' ]"
-      - date: CURRENT_DATETIME
       - name: "thumbnail"
         field:
           element: "text"
@@ -157,7 +154,6 @@ prose:
          field:
           element: "hidden"
           value: "[ 'letras', 'letras-historias' ]"
-      - date: CURRENT_DATETIME
       - name: "thumbnail"
         field:
           element: "text"
