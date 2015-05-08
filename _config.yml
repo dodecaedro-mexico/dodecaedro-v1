@@ -37,6 +37,14 @@ prose:
         field:
           element: "text"
           label: "Título"
+      - name: "published"
+        field:
+          element: "select"
+          options:
+            - name: "No Publicado"
+              value: "false"
+            - name: "Publicado"
+              value: "true"
       - name: "layout"
         field:
           element: "hidden"
@@ -55,6 +63,8 @@ prose:
           element: "select"
           label: "Tu Nombre o Dodecaedro si es un trabajo en equipo."
           options:
+            - name: "Dodecaedro"
+              value: "Dodecaedro"
             - name: "Said Pulido"
               value: "Said Pulido"
             - name: "MGM"
@@ -65,13 +75,19 @@ prose:
               value: "Sebastián Alfaro"
             - name: "Sebastián López"
               value: "Sebastián López"
-            - name: "Dodecaedro"
-              value: "Dodecaedro"
     _posts/Fotografía/Gifwalls:
       - name: "title"
         field:
           element: "text"
           label: "Título"
+      - name: "published"
+        field:
+          element: "select"
+          options:
+            - name: "No Publicado"
+              value: "false"
+            - name: "Publicado"
+              value: "true"
       - name: "layout"
         field:
           element: "hidden"
@@ -90,6 +106,8 @@ prose:
           element: "select"
           label: "Tu Nombre o Dodecaedro si es un trabajo en equipo."
           options:
+            - name: "Dodecaedro"
+              value: "Dodecaedro"
             - name: "Said Pulido"
               value: "Said Pulido"
             - name: "MGM"
@@ -100,13 +118,19 @@ prose:
               value: "Sebastián Alfaro"
             - name: "Sebastián López"
               value: "Sebastián López"
-            - name: "Dodecaedro"
-              value: "Dodecaedro"
     _posts/Letras/Ensayos:
       - name: "title"
         field:
           element: "text"
           label: "Título"
+      - name: "published"
+        field:
+          element: "select"
+          options:
+            - name: "No Publicado"
+              value: "false"
+            - name: "Publicado"
+              value: "true"
       - name: "layout"
         field:
           element: "hidden"
@@ -125,6 +149,8 @@ prose:
           element: "select"
           label: "Tu Nombre o Dodecaedro si es un trabajo en equipo."
           options:
+            - name: "Dodecaedro"
+              value: "Dodecaedro"
             - name: "Said Pulido"
               value: "Said Pulido"
             - name: "MGM"
@@ -135,13 +161,19 @@ prose:
               value: "Sebastián Alfaro"
             - name: "Sebastián López"
               value: "Sebastián López"
-            - name: "Dodecaedro"
-              value: "Dodecaedro"
     _posts/Letras/Historias:
       - name: "title"
         field:
           element: "text"
           label: "Título"
+      - name: "published"
+        field:
+          element: "select"
+          options:
+            - name: "No Publicado"
+              value: "false"
+            - name: "Publicado"
+              value: "true"
       - name: "layout"
         field:
           element: "hidden"
@@ -160,6 +192,8 @@ prose:
           element: "select"
           label: "Tu Nombre o Dodecaedro si es un trabajo en equipo."
           options:
+            - name: "Dodecaedro"
+              value: "Dodecaedro"
             - name: "Said Pulido"
               value: "Said Pulido"
             - name: "MGM"
@@ -170,5 +204,3 @@ prose:
               value: "Sebastián Alfaro"
             - name: "Sebastián López"
               value: "Sebastián López"
-            - name: "Dodecaedro"
-              value: "Dodecaedro"
