@@ -44,8 +44,8 @@ prose:
           value: "post"
       - name: "categories"
          field:
-          element: "hidden"
-          value: "[ 'cine', 'cine-resenas' ]"
+          element: "text"
+          value: ""
       - name: "thumbnail"
         field:
           element: "text"
@@ -80,8 +80,8 @@ prose:
           value: "wall"
       - name: "categories"
          field:
-          element: "hidden"
-          value: "[ 'foto', 'foto-gifwall' ]"
+          element: "text"
+          value: ""
       - name: "thumbnail"
         field:
           element: "text"
@@ -116,8 +116,8 @@ prose:
           value: "wall"
       - name: "categories"
          field:
-          element: "hidden"
-          value: "[ 'letras', 'letras-ensayos' ]"
+          element: "text"
+          value: ""
       - name: "thumbnail"
         field:
           element: "text"
@@ -152,8 +152,8 @@ prose:
           value: "wall"
       - name: "categories"
          field:
-          element: "hidden"
-          value: "[ 'letras', 'letras-historias' ]"
+          element: "text"
+          value: ""
       - name: "thumbnail"
         field:
           element: "text"
