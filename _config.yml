@@ -42,10 +42,6 @@ prose:
         field:
           element: "hidden"
           value: "post"
-      - name: "categories"
-         field:
-          element: "text"
-          value: ""
       - name: "thumbnail"
         field:
           element: "text"
@@ -78,10 +74,6 @@ prose:
         field:
           element: "hidden"
           value: "wall"
-      - name: "categories"
-         field:
-          element: "text"
-          value: ""
       - name: "thumbnail"
         field:
           element: "text"
@@ -114,10 +106,6 @@ prose:
         field:
           element: "hidden"
           value: "wall"
-      - name: "categories"
-         field:
-          element: "text"
-          value: ""
       - name: "thumbnail"
         field:
           element: "text"
@@ -150,10 +138,6 @@ prose:
         field:
           element: "hidden"
           value: "wall"
-      - name: "categories"
-         field:
-          element: "text"
-          value: ""
       - name: "thumbnail"
         field:
           element: "text"
