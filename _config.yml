@@ -37,11 +37,14 @@ prose:
         field:
           element: "text"
           label: "Título"
-          value: ""
       - name: "layout"
         field:
           element: "hidden"
           value: "post"
+      - name: "category"
+         field:
+          element: "text"
+          value: "[ 'cine', 'cine-resenas' ]"
       - name: "thumbnail"
         field:
           element: "text"
@@ -69,11 +72,14 @@ prose:
         field:
           element: "text"
           label: "Título"
-          value: ""
       - name: "layout"
         field:
           element: "hidden"
           value: "wall"
+      - name: "category"
+         field:
+          element: "text"
+          value: "[ 'foto', 'foto-gifwalls' ]"
       - name: "thumbnail"
         field:
           element: "text"
@@ -101,11 +107,14 @@ prose:
         field:
           element: "text"
           label: "Título"
-          value: ""
       - name: "layout"
         field:
           element: "hidden"
           value: "wall"
+      - name: "category"
+         field:
+          element: "text"
+          value: "[ 'letras', 'letras-ensayos' ]"
       - name: "thumbnail"
         field:
           element: "text"
@@ -133,11 +142,14 @@ prose:
         field:
           element: "text"
           label: "Título"
-          value: ""
       - name: "layout"
         field:
           element: "hidden"
           value: "wall"
+      - name: "category"
+         field:
+          element: "text"
+          value: "[ 'letras', 'letras-historias' ]"
       - name: "thumbnail"
         field:
           element: "text"
