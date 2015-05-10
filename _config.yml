@@ -37,16 +37,6 @@ prose:
         field:
           element: "text"
           label: "Título"
-      - name: "published"
-        field:
-          element: "select"
-          label: "Estado del artículo:"
-          help: "¿Está listo el artículo para la página?"
-          options:
-            - name: "Sin publicar"
-              value: "false"
-            - name: "Publicado"
-              value: "true"
       - name: "layout"
         field:
           element: "hidden"
@@ -54,7 +44,9 @@ prose:
       - name: "category"
         field:
           element: "hidden"
-          value: "[ 'cine', 'cine-resenas' ]"
+          value:
+            - 'cine'
+            - 'cine-resenas'
       - name: "thumbnail"
         field:
           element: "text"
@@ -82,16 +74,6 @@ prose:
         field:
           element: "text"
           label: "Título"
-      - name: "published"
-        field:
-          element: "select"
-          label: "Estado del artículo:"
-          help: "¿Está listo el artículo para la página?"
-          options:
-            - name: "Sin publicar"
-              value: "false"
-            - name: "Publicado"
-              value: "true"
       - name: "layout"
         field:
           element: "hidden"
@@ -99,7 +81,9 @@ prose:
       - name: "category"
         field:
           element: "hidden"
-          value: "[ 'foto', 'foto-gifwalls' ]"
+          value:
+            - 'foto'
+            - 'foto-gifwalls'
       - name: "thumbnail"
         field:
           element: "text"
@@ -127,16 +111,6 @@ prose:
         field:
           element: "text"
           label: "Título"
-      - name: "published"
-        field:
-          element: "select"
-          label: "Estado del artículo:"
-          help: "¿Está listo el artículo para la página?"
-          options:
-            - name: "Sin publicar"
-              value: "false"
-            - name: "Publicado"
-              value: "true"
       - name: "layout"
         field:
           element: "hidden"
@@ -144,7 +118,9 @@ prose:
       - name: "category"
         field:
           element: "hidden"
-          value: "[ 'letras', 'letras-ensayos' ]"
+          value: 
+            - 'letras'
+            - 'letras-ensayos'
       - name: "thumbnail"
         field:
           element: "text"
@@ -172,16 +148,6 @@ prose:
         field:
           element: "text"
           label: "Título"
-      - name: "published"
-        field:
-          element: "select"
-          label: "Estado del artículo:"
-          help: "¿Está listo el artículo para la página?"
-          options:
-            - name: "Sin publicar"
-              value: "false"
-            - name: "Publicado"
-              value: "true"
       - name: "layout"
         field:
           element: "hidden"
@@ -189,7 +155,9 @@ prose:
       - name: "category"
         field:
           element: "hidden"
-          value: "[ 'letras', 'letras-historias' ]"
+          value: 
+            - 'letras'
+            - 'letras-historias'
       - name: "thumbnail"
         field:
           element: "text"
