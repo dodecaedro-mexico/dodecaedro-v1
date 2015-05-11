@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Hoy Asistí a Mi Primer Funeral
-date:   27-04-2015
-categories: [ 'letras', 'letras-historias' ]
+categoriey:
+  - 'letras'
+  - 'letras-historias'
 author: MGM
 excerpt: En realidad jamás me hizo ilusión acudir a uno; siempre los pensé como una ocasión no sólo triste, sino lúgubre.
 ---

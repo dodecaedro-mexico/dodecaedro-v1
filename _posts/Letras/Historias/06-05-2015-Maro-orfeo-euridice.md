@@ -2,7 +2,9 @@
 layout: post
 title: Ὀρφεύς &  Ευρυδίκη
 date: 06-05-2015
-categories: [ 'letras', 'letras-historias' ]
+category:
+  - 'letras'
+  - 'letras-historias'
 author: Maro
 excerpt: El mito griego de Orfeo, el gran músico, y Eurídice, la bella ninfa.
 thumbnail: /assets/img/posts/letras-historias/06-05-2015-orfeo-euridice-1.jpg

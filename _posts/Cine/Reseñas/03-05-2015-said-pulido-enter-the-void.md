@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  Enter The Void
-date:   2015-04-07
-categories: [ 'cine', 'cine-resenas' ]
+category:
+  - cine
+  - cine-resenas
 author: Said Pulido
 excerpt: La post- historia según el cine y reseñas de Enter the Void  y La Naranja Mecánica  [sujeto a spoilers]
 thumbnail: /assets/img/posts/cine-resenas/01-05-2015-enter-the-void-1.jpg

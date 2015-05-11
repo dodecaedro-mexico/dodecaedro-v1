@@ -1,8 +1,11 @@
 ---
 layout: post
 title: El Muralismo Mexicano
-date:   26-04-2015
-categories: [ 'letras', 'letras-ensayos', 'graphique', 'graphique-pintura' ]
+category:
+  - 'letras'
+  - 'letras-ensayos'
+  - 'graphique'
+  - 'graphique-pintura'
 author: Sebastián López
 excerpt: Un ensayo que indaga el arte revolucionario mexicano y lo propone como motivo de orgullo nacional.
 thumbnail: /assets/img/posts/letras-ensayos/26-04-2015-muralismo-mexicano-thumb.jpg

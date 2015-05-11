@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 30-04-2015
-categories: [ cine, cine-resenas ]
+category: 
+  - cine
+  - cine-resenas
 title: Mullholland Drive
 excerpt: Algo tan hermoso como un sueño y tan turbio como una pesadilla
 author: Sebastián Alfaro
