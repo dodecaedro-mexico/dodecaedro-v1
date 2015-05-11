@@ -1,7 +1,7 @@
 ---
 category: 
   - musica
-  - "musica-reseñas"
+  - "musica-resenas"
 layout: post
 published: true
 title: "Caloncho - Fruta EP"
