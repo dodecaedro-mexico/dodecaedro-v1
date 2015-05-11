@@ -1,7 +1,7 @@
 # Site settings
 title: Dodecaedro.mx
 description: > # this means to ignore newlines until "baseurl:"
-  Dodecaedro es una página comprometida con la cultura del cine, literatura, artes plásticas, y música local mexicana.
+  En dodecaedro encontrarás arículos sobre la cultura del cine, literatura, artes plásticas, y música local mexicana.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dodecaedro.mx" # the base hostname & protocol for your site
 permalink: pretty
@@ -51,7 +51,13 @@ prose:
         field:
           element: "text"
           label: "Imagen de previsualización"
-          value: "/assets/img/mi-imagen.jpg"
+          help: "Copia la dirección de cualquier imagen en tu post"
+          value: "/assets/img/dummy.jpg"
+      - name: "excerpt"
+        field:
+          element: "text"
+          label: "Texto de previsualización"
+          value: "Ejemplo: Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
       - name: "author"
         field:
           element: "select"
@@ -88,7 +94,13 @@ prose:
         field:
           element: "text"
           label: "Imagen de previsualización"
-          value: "/assets/img/mi-imagen.jpg"
+          help: "Copia la dirección de cualquier imagen en tu post"
+          value: "/assets/img/dummy.jpg"
+      - name: "excerpt"
+        field:
+          element: "text"
+          label: "Texto de previsualización"
+          value: "Ejemplo: Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
       - name: "author"
         field:
           element: "select"
@@ -125,7 +137,13 @@ prose:
         field:
           element: "text"
           label: "Imagen de previsualización"
-          value: "/assets/img/mi-imagen.jpg"
+          help: "Copia la dirección de cualquier imagen en tu post"
+          value: "/assets/img/dummy.jpg"
+      - name: "excerpt"
+        field:
+          element: "text"
+          label: "Texto de previsualización"
+          value: "Ejemplo: Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
       - name: "author"
         field:
           element: "select"
@@ -162,7 +180,13 @@ prose:
         field:
           element: "text"
           label: "Imagen de previsualización"
-          value: "/assets/img/mi-imagen.jpg"
+          help: "Copia la dirección de cualquier imagen en tu post"
+          value: "/assets/img/dummy.jpg"
+      - name: "excerpt"
+        field:
+          element: "text"
+          label: "Texto de previsualización"
+          value: "Ejemplo: Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
       - name: "author"
         field:
           element: "select"
