@@ -30,7 +30,7 @@ transfer:
 prose:
   rooturl: '_posts'
   siteurl: 'http://dodecaedro.mx'
-  media: 'assets/img'
+  media: 'assets/img/posts'
   metadata:
     _posts/Cine/Reseñas:
       - name: "title"
@@ -55,7 +55,7 @@ prose:
           value: "/assets/img/dummy.jpg"
       - name: "excerpt"
         field:
-          element: "text"
+          element: "textarea"
           label: "Texto de previsualización"
           value: "Ejemplo: Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
       - name: "author"
@@ -98,7 +98,7 @@ prose:
           value: "/assets/img/dummy.jpg"
       - name: "excerpt"
         field:
-          element: "text"
+          element: "textarea"
           label: "Texto de previsualización"
           value: "Ejemplo: Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
       - name: "author"
@@ -126,7 +126,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "wall"
+          value: "post"
       - name: "category"
         field:
           element: "hidden"
@@ -141,7 +141,7 @@ prose:
           value: "/assets/img/dummy.jpg"
       - name: "excerpt"
         field:
-          element: "text"
+          element: "textarea"
           label: "Texto de previsualización"
           value: "Ejemplo: Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
       - name: "author"
@@ -169,7 +169,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "wall"
+          value: "post"
       - name: "category"
         field:
           element: "hidden"
@@ -184,7 +184,7 @@ prose:
           value: "/assets/img/dummy.jpg"
       - name: "excerpt"
         field:
-          element: "text"
+          element: "textarea"
           label: "Texto de previsualización"
           value: "Ejemplo: Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
       - name: "author"
