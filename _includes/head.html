@@ -6,12 +6,7 @@
   <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="Robots" content="index, follow">
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  {% if page.tags %}
-    <meta name="kewywords" 
-      content=" {% for tag in page.tags %}
-        <meta content="{{ tag }}" property="article:tag">
-      {% endfor %}"/>
-  {% endif %}
+  <meta name="kewywords" content="autores, indie, independiente, cine, literatura, arte, mexico, produccion, dodecaedro, amateur, ensayo, historia, cortometrajes, reseñas, fotografia, tops, invitados, poesia, colecciones, sketching, dibujo, pintura, evento, gifwall, photowall, local, fotowall, gif-wall, {% if page.tags %}{% for tag in page.tags %}{{ tag }}{% endfor %}{% endif %}{% if page.author %}{{ page.author }}{% endif %}/>
 
   <!-- Open Graph Meta Tags -->
   <meta property="fb:app_id" content="878003108907396">
