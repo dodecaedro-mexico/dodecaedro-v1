@@ -6,7 +6,7 @@ category:
   - cine-resenas
 author: Said Pulido
 excerpt: La post- historia según el cine y reseñas de Enter the Void  y La Naranja Mecánica  [sujeto a spoilers]
-thumbnail: /assets/img/posts/cine-resenas/01-05-2015-enter-the-void-1.jpg
+thumbnail: /assets/img/posts/cine-resenas/01-05-2015-enter-the-void-thumb.jpg
 ---
 
 ¿Realidad o ficción? Esa es mi principal pregunta; el hombre contemporáneo siempre busca lo que le acomoda, un cine acogedor, butacas y mucha comida chatarra, no lo culpo, supongo que también habrá que atontarse un rato, con TV con el cabello de nuestra novia, con música e incluso con el cine.
