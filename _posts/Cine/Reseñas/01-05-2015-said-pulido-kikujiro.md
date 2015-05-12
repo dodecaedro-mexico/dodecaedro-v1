@@ -5,13 +5,14 @@ category:
 layout: post
 title: Kikujiro  菊次郎の夏
 author: Said Pulido
-excerpt: 
-  Ejemplo: "Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
+excerpt: "Me encanta el cine japonés, lo estudio muchísimo, siento que tiene un toque muy especial, es muy suave, es como la carne blanca, no sabe a nada pero tiene mucho sabor y tiene su esencia."
 thumbnail: "assets/img/posts/cine-resenas/03-05-2015-kurijiro-thumb.jpg"
 published: true
 ---
 
-Me encanta el cine japonés, lo estudio muchísimo, siento que tiene un toque muy especial, es muy suave, es como la carne blanca, no sabe a nada pero tiene mucho sabor y tiene su esencia. Hay ciertos tipos de títulos que plasman una atmósfera sentimental ya sea en los campos de Okinawa hasta los rascacielos de Tokio, filmes sentimentales los cuales nos quieres hacer entender el significado de la vida o valorar a alguien. Hablaré de eso hoy, de una película con un ritmo especial. El director Takeshi Kitano o también conocido como Beat Takeshi escribió una historia no precisamente sobre yakuzas asesinos y mafias asiáticas como en Bad Brother o en Outrage , más bien pone a reflexionar el mundo de los adultos. El elemento principal para hacer reflexionar  a un adulto en mi punto de vista es la magia de tener un hijo, o por lo menos la magia de saber interactuar con un niño, la película planta un concepto  de como un niño cambia la vida de un adulto. Es el concepto padre e hijo que ya hemos visto en Tsotsi de Gavin Hood, 	Kolya de Jan Svěrák, El chico de la bicicleta de los hermanos Dardenne e incluso en Kramer contra Kramer de Robert Benton.
+Me encanta el cine japonés, lo estudio muchísimo, siento que tiene un toque muy especial, es muy suave, es como la carne blanca, no sabe a nada pero tiene mucho sabor y tiene su esencia. Hay ciertos tipos de títulos que plasman una atmósfera sentimental ya sea en los campos de Okinawa hasta los rascacielos de Tokio, filmes sentimentales los cuales nos quieres hacer entender el significado de la vida o valorar a alguien. Hablaré de eso hoy, de una película con un ritmo especial. 
+
+El director Takeshi Kitano o también conocido como Beat Takeshi escribió una historia no precisamente sobre yakuzas asesinos y mafias asiáticas como en Bad Brother o en Outrage , más bien pone a reflexionar el mundo de los adultos. El elemento principal para hacer reflexionar  a un adulto en mi punto de vista es la magia de tener un hijo, o por lo menos la magia de saber interactuar con un niño, la película planta un concepto  de como un niño cambia la vida de un adulto. Es el concepto padre e hijo que ya hemos visto en Tsotsi de Gavin Hood, Kolya de Jan Svěrák, El chico de la bicicleta de los hermanos Dardenne e incluso en Kramer contra Kramer de Robert Benton.
 
 <hr> 
 
