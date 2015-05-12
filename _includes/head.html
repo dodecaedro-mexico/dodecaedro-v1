@@ -17,7 +17,7 @@
   {% if page.excerpt %}<meta content="{{ page.excerpt }}" property="og:description">{% else %}<meta content="{{ site.description }}" property="og:description">{% endif %}
   {% if page.date %}<meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">{% endif %}
   {% if page.author %}<meta content="{{ site.url }}/artistas/{{ page.author }}" property="article:author">{% else %}<meta content="{{ site.url }}/sobre-nosotros/" property="article:author">{% endif %}
-  {% if page.thumbnail %}<meta content="{{ site.url }}{{ page.url }}{{ page.thumbnail }}" property="og:image">{% else %}<meta content="{{ site.url }}{{ page.url }}/img/dummy.jpg" property="og:image">{% endif %}
+  {% if page.thumbnail %}<meta content="{{ site.url }}{{ site.baseurl }}{{ page.thumbnail }}" property="og:image">{% else %}<meta content="{{ site.url }}{{ site.baseurl }}/img/dummy.jpg" property="og:image">{% endif %}
   {% if page.categories %}{% for category in page.categories limit:1 %}<meta content="{{ category }}" property="article:section">{% endfor %}{% endif %}
   {% if page.tags %}{% for tag in page.tags %}<meta content="{{ tag }}" property="article:tag">{% endfor %}{% endif %}
 
