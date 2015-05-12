@@ -6,7 +6,7 @@ layout: post
 title: Kikujiro  菊次郎の夏
 author: Said Pulido
 excerpt: "Me encanta el cine japonés, lo estudio muchísimo, siento que tiene un toque muy especial, es muy suave, es como la carne blanca, no sabe a nada pero tiene mucho sabor y tiene su esencia."
-thumbnail: "assets/img/posts/cine-resenas/03-05-2015-kurijiro-thumb.jpg"
+thumbnail: "/assets/img/posts/cine-resenas/03-05-2015-kurijiro-thumb.jpg"
 published: true
 ---
 

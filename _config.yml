@@ -30,7 +30,7 @@ transfer:
 prose:
   rooturl: '_posts'
   siteurl: 'http://dodecaedro.mx'
-  media: 'assets/img/posts'
+  media: '/assets/img/posts'
   metadata:
     _posts/Cine/Reseñas:
       - name: "title"
