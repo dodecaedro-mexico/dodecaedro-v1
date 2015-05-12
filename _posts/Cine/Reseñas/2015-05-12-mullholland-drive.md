@@ -3,11 +3,12 @@ category:
   - cine
   - "cine-resenas"
 layout: post
-published: false
+published: true
 title: Mullholland Drive
 thumbnail: "/assets/img/posts/cine-resenas/30-04-2015-mullholland-drive-1.jpg"
 author: Sebastián Alfaro
-excerpt: "La mejor película de Lynch, algo tan hermoso como un sueñoo y tan turbio como una pesadilla."
+excerpt: 
+  Ejemplo: "Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
 ---
 
 Es sabido que Mulholland Dr. había sido concebida como una serie de televisión. Rechazado por ABC, David Lynch decidió hacerla un film. Así fue como nació la mejor película de Lynch, algo tan hermoso como un sueño y tan turbio como una pesadilla; la mezcla perfecta de lo surreal, el film noir y los deseos más profundos del ser humano.
