@@ -7,7 +7,7 @@ published: true
 title: "Caloncho - Fruta EP"
 thumbnail: /assets/img/posts/PortadaFurtaWEBsmall.jpg
 excerpt: "Lo primero que sentí al escuchar Chupetazos, la mejor canción de Fruta EP, fue una cálida y caliente sensación de esperanza por la música mexicana"
-author: Dodecaedro
+author: Ramón Martínez Carrasco
 ---
 
 Lo primero que sentí al escuchar Chupetazos, la mejor canción de Fruta EP, fue una cálida y caliente sensación de esperanza por la música mexicana, con producción impecable y original, letra sencilla y sin rodeos la canción me grito que el pop mexicano en español no se iba a quedar estancado, Caloncho viene a reforzar en sustancia la ola de nuevos artistas mexicanos liderada por actos como Torreblanca y Siddhartha.

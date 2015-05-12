@@ -73,6 +73,7 @@ prose:
               value: "Maro"
             - name: "Sebastián Alfaro"
               value: "Sebastián Alfaro"
+            - name: "Raul Martínez Carrasco"
             - name: "Sebastián López"
               value: "Sebastián López"
     _posts/Fotografía/Gifwalls:
@@ -116,6 +117,7 @@ prose:
               value: "Maro"
             - name: "Sebastián Alfaro"
               value: "Sebastián Alfaro"
+            - name: "Raul Martínez Carrasco"
             - name: "Sebastián López"
               value: "Sebastián López"
     _posts/Letras/Ensayos:
@@ -159,6 +161,7 @@ prose:
               value: "Maro"
             - name: "Sebastián Alfaro"
               value: "Sebastián Alfaro"
+            - name: "Raul Martínez Carrasco"
             - name: "Sebastián López"
               value: "Sebastián López"
     _posts/Letras/Historias:
@@ -202,5 +205,6 @@ prose:
               value: "Maro"
             - name: "Sebastián Alfaro"
               value: "Sebastián Alfaro"
+            - name: "Raul Martínez Carrasco"
             - name: "Sebastián López"
               value: "Sebastián López"
