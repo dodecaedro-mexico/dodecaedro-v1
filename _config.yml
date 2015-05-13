@@ -12,21 +12,6 @@ markdown: kramdown
 gems:
   - jekyll-sitemap
 
-post:
-  template: _post.txt
-  extension: md
-page:
-  template: _page.txt
-  extension: md
-editor: subl
-git:
-  branch: master
-transfer:
-  command: rsync
-  settings: -av
-  source: _site/
-  destination: ~/Git/username.github.com/
-
 prose:
   rooturl: '_posts'
   siteurl: 'http://dodecaedro.mx'
@@ -57,7 +42,7 @@ prose:
         field:
           element: "textarea"
           label: "Texto de previsualización"
-          value: "Ejemplo: Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
+          value: "Por ejemplo > Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
       - name: "author"
         field:
           element: "select"

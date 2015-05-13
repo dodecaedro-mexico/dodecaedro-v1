@@ -20,8 +20,6 @@ A pesar de ser su primer proyecto el artista sonorense nos entrega un EP origina
 
 **Calificación** 7/10
 
-<hr>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IY1rg7712Hc" frameborder="0" allowfullscreen></iframe>
 
 [Escucha más de Frtuta EP](http://caloncho.mx/index/)

@@ -2,7 +2,9 @@
 <script src="{{ "/assets/js/foundation.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/assets/js/masonry.js" | prepend: site.baseurl }}"></script>
 <script>
-    $(document).foundation();
+  $('iframe').wrap('<div class="flex-video"></div>');
+  $('.flex-video').wrap('<div class="small-12 columns"></div>');
+  $(document).foundation();
 </script>
 <script>
 	$(window).load(function(){
