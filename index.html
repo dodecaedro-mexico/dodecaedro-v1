@@ -10,10 +10,9 @@ layout: page
     <hr>
 
     <ul class="small-block-grid-1 medium-block-grid-4">
-    
-        {% for post in site.posts limit:10 %}
-    
-            <li>
+        {% for post in site.categories.cine limit:5 %}
+        <li>
+            <div class="small-12 medium-6 columns">
                 <a href="{{ post.url }}"> 
                     {% if post.thumbnail %}
                         <img alt="{{ post.title }}" src="{{ post.thumbnail }}" align="center" />
@@ -21,17 +20,16 @@ layout: page
                         <img src="/assets/img/dummy.jpg" align="center" />
                     {% endif %}
                 </a>
-            </li>
-            <li>
+            </div class="small-12 medium-6 columns">
+            <div>
                 <h4>{{ post.title }}</h4>
                 <p>
                    {{ post.excerpt }}
                 </p>
                 <a href="{{ post.url }}">Leer más ></a>
-            </li>
-    
+            </div>
+        </li>
         {% endfor %}
-
     </ul>
 
     <br>
@@ -156,10 +154,9 @@ layout: page
     <hr>
 
     <ul class="small-block-grid-1 medium-block-grid-4">
-    
-        {% for post in site.categories.letras limit:5 %}
-    
-            <li>
+        {% for post in site.categories.cine limit:5 %}
+        <li>
+            <div class="small-12 medium-6 columns">
                 <a href="{{ post.url }}"> 
                     {% if post.thumbnail %}
                         <img alt="{{ post.title }}" src="{{ post.thumbnail }}" align="center" />
@@ -167,15 +164,14 @@ layout: page
                         <img src="/assets/img/dummy.jpg" align="center" />
                     {% endif %}
                 </a>
-            </li>
-            <li>
+            </div class="small-12 medium-6 columns">
+            <div>
                 <h4>{{ post.title }}</h4>
                 <p>
                    {{ post.excerpt }}
                 </p>
                 <a href="{{ post.url }}">Leer más ></a>
-            </li>
-    
+            </div>
+        </li>
         {% endfor %}
-
     </ul>
