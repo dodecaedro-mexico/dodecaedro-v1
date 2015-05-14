@@ -15,7 +15,7 @@ gems:
 prose:
   rooturl: '_posts'
   siteurl: 'http://dodecaedro.mx'
-  media: '/assets/img/posts'
+  media: 'assets/img/posts'
   metadata:
     _posts/Cine/Reseñas:
       - name: "title"
@@ -37,7 +37,7 @@ prose:
           element: "text"
           label: "Imagen de previsualización"
           help: "Copia la dirección de cualquier imagen en tu post"
-          value: "/assets/img/dummy.jpg"
+          value: "assets/img/dummy.jpg"
       - name: "excerpt"
         field:
           element: "textarea"
@@ -81,7 +81,7 @@ prose:
           element: "text"
           label: "Imagen de previsualización"
           help: "Copia la dirección de cualquier imagen en tu post"
-          value: "/assets/img/dummy.jpg"
+          value: "assets/img/dummy.jpg"
       - name: "excerpt"
         field:
           element: "textarea"
@@ -125,7 +125,7 @@ prose:
           element: "text"
           label: "Imagen de previsualización"
           help: "Copia la dirección de cualquier imagen en tu post"
-          value: "/assets/img/dummy.jpg"
+          value: "assets/img/dummy.jpg"
       - name: "excerpt"
         field:
           element: "textarea"
@@ -169,7 +169,51 @@ prose:
           element: "text"
           label: "Imagen de previsualización"
           help: "Copia la dirección de cualquier imagen en tu post"
-          value: "/assets/img/dummy.jpg"
+          value: "assets/img/dummy.jpg"
+      - name: "excerpt"
+        field:
+          element: "textarea"
+          label: "Texto de previsualización"
+          value: "Ejemplo: Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
+      - name: "author"
+        field:
+          element: "select"
+          label: "Tu Nombre o Dodecaedro si es un trabajo en equipo."
+          options:
+            - name: "Dodecaedro"
+              value: "Dodecaedro"
+            - name: "Said Pulido"
+              value: "Said Pulido"
+            - name: "MGM"
+              value: "MGM"
+            - name: "Maro"
+              value: "Maro"
+            - name: "Sebastián Alfaro"
+              value: "Sebastián Alfaro"
+            - name: "Raul Martínez Carrasco"
+            - name: "Sebastián López"
+              value: "Sebastián López"
+    _posts/Música/Reseñas:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Título"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: 
+            - 'musica'
+            - 'musica-resenas'
+      - name: "thumbnail"
+        field:
+          element: "text"
+          label: "Imagen de previsualización"
+          help: "Copia la dirección de cualquier imagen en tu post"
+          value: "assets/img/dummy.jpg"
       - name: "excerpt"
         field:
           element: "textarea"
