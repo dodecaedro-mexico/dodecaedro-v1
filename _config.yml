@@ -42,6 +42,7 @@ prose:
         field:
           element: "textarea"
           label: "Texto de previsualización"
+          help: "NO USAR COMILLAS O GUIONES"
           value: "Por ejemplo > Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
       - name: "author"
         field:
@@ -93,6 +94,7 @@ prose:
         field:
           element: "textarea"
           label: "Texto de previsualización"
+          help: "NO USAR COMILLAS O GUIONES"
           value: "Ejemplo: Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
       - name: "author"
         field:
@@ -144,6 +146,7 @@ prose:
         field:
           element: "textarea"
           label: "Texto de previsualización"
+          help: "NO USAR COMILLAS O GUIONES"
           value: "Ejemplo: Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
       - name: "author"
         field:
@@ -195,6 +198,7 @@ prose:
         field:
           element: "textarea"
           label: "Texto de previsualización"
+          help: "NO USAR COMILLAS O GUIONES"
           value: "Ejemplo: Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
       - name: "author"
         field:
@@ -246,6 +250,7 @@ prose:
         field:
           element: "textarea"
           label: "Texto de previsualización"
+          help: "NO USAR COMILLAS O GUIONES"
           value: "Ejemplo: Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
       - name: "author"
         field:
