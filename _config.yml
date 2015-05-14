@@ -63,12 +63,12 @@ prose:
               value: "Ramón Martínez Carrasco"
             - name: "Sebastián López"
               value: "Sebastián López"
-            - name: "tags"
-              field:
-                element: "textarea"
-                label: "Agrega palabras relacionadas al contenido de tu post para que la gente lo encuentre en google"
-                help: "Son como los hashtags pero en vez de #palabra es: palabra, ¡NO DEBES USAR GUIONES NI DOS PUNTOS!"
-                value: "cine, cannes, director, etc, agrega, muchas,"
+      - name: "tags"
+        field:
+          element: "textarea"
+          label: "Agrega palabras relacionadas al contenido de tu post para que la gente lo encuentre en google"
+          help: "Son como los hashtags pero en vez de #palabra es: palabra, ¡NO DEBES USAR GUIONES NI DOS PUNTOS!"
+          value: "cine, cannes, director, etc, agrega, muchas,"
     _posts/Fotografía/Gifwalls:
       - name: "title"
         field:
@@ -115,12 +115,12 @@ prose:
               value: "Ramón Martínez Carrasco"
             - name: "Sebastián López"
               value: "Sebastián López"
-            - name: "tags"
-              field:
-                element: "textarea"
-                label: "Agrega palabras relacionadas al contenido de tu post para que la gente lo encuentre en google"
-                help: "Son como los hashtags pero en vez de #palabra es: palabra, ¡NO DEBES USAR GUIONES NI DOS PUNTOS!"
-                value: "cine, cannes, director, etc, agrega, muchas,"
+      - name: "tags"
+        field:
+          element: "textarea"
+          label: "Agrega palabras relacionadas al contenido de tu post para que la gente lo encuentre en google"
+          help: "Son como los hashtags pero en vez de #palabra es: palabra, ¡NO DEBES USAR GUIONES NI DOS PUNTOS!"
+          value: "cine, cannes, director, etc, agrega, muchas,"
     _posts/Letras/Ensayos:
       - name: "title"
         field:
@@ -167,12 +167,12 @@ prose:
               value: "Ramón Martínez Carrasco"
             - name: "Sebastián López"
               value: "Sebastián López"
-            - name: "tags"
-              field:
-                element: "textarea"
-                label: "Agrega palabras relacionadas al contenido de tu post para que la gente lo encuentre en google"
-                help: "Son como los hashtags pero en vez de #palabra es: palabra, ¡NO DEBES USAR GUIONES NI DOS PUNTOS!"
-                value: "cine, cannes, director, etc, agrega, muchas,"
+      - name: "tags"
+        field:
+          element: "textarea"
+          label: "Agrega palabras relacionadas al contenido de tu post para que la gente lo encuentre en google"
+          help: "Son como los hashtags pero en vez de #palabra es: palabra, ¡NO DEBES USAR GUIONES NI DOS PUNTOS!"
+          value: "cine, cannes, director, etc, agrega, muchas,"
     _posts/Letras/Historias:
       - name: "title"
         field:
@@ -219,12 +219,12 @@ prose:
               value: "Ramón Martínez Carrasco"
             - name: "Sebastián López"
               value: "Sebastián López"
-            - name: "tags"
-              field:
-                element: "textarea"
-                label: "Agrega palabras relacionadas al contenido de tu post para que la gente lo encuentre en google"
-                help: "Son como los hashtags pero en vez de #palabra es: palabra, ¡NO DEBES USAR GUIONES NI DOS PUNTOS!"
-                value: "cine, cannes, director, etc, agrega, muchas,"
+      - name: "tags"
+        field:
+          element: "textarea"
+          label: "Agrega palabras relacionadas al contenido de tu post para que la gente lo encuentre en google"
+          help: "Son como los hashtags pero en vez de #palabra es: palabra, ¡NO DEBES USAR GUIONES NI DOS PUNTOS!"
+          value: "cine, cannes, director, etc, agrega, muchas,"
     _posts/Música/Reseñas:
       - name: "title"
         field:
@@ -250,7 +250,7 @@ prose:
         field:
           element: "textarea"
           label: "Texto de previsualización"
-          help: "NO USAR COMILLAS O GUIONES"
+          help: "NO USAR COMILLAS DOS PUNTOS O GUIONES"
           value: "Ejemplo: Cuando se posó frente a mí la luna, supe que todo estaba perdido..."
       - name: "author"
         field:
@@ -271,9 +271,9 @@ prose:
               value: "Ramón Martínez Carrasco"
             - name: "Sebastián López"
               value: "Sebastián López"
-            - name: "tags"
-              field:
-                element: "textarea"
-                label: "Agrega palabras relacionadas al contenido de tu post para que la gente lo encuentre en google"
-                help: "Son como los hashtags pero en vez de #palabra es: palabra, ¡NO DEBES USAR GUIONES NI DOS PUNTOS!"
-                value: "cine, cannes, director, etc, agrega, muchas,"
+      - name: "tags"
+        field:
+          element: "textarea"
+          label: "Agrega palabras relacionadas al contenido de tu post para que la gente lo encuentre en google"
+          help: "Son como los hashtags pero en vez de #palabra es: palabra, ¡NO DEBES USAR GUIONES NI DOS PUNTOS!"
+          value: "cine, cannes, director, etc, agrega, muchas,"
