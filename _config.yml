@@ -36,7 +36,7 @@ prose:
         field:
           element: "text"
           label: "Imagen de previsualización"
-          help: "Copia la dirección de cualquier imagen en tu post"
+          help: "Copia la dirección de cualquier imagen en tu post y antepon una diagonal /"
           value: "assets/img/dummy.jpg"
       - name: "excerpt"
         field:
@@ -88,7 +88,7 @@ prose:
         field:
           element: "text"
           label: "Imagen de previsualización"
-          help: "Copia la dirección de cualquier imagen en tu post"
+          help: "Copia la dirección de cualquier imagen en tu post y antepon una diagonal /"
           value: "assets/img/dummy.jpg"
       - name: "excerpt"
         field:
@@ -140,7 +140,7 @@ prose:
         field:
           element: "text"
           label: "Imagen de previsualización"
-          help: "Copia la dirección de cualquier imagen en tu post"
+          help: "Copia la dirección de cualquier imagen en tu post y antepon una diagonal /"
           value: "assets/img/dummy.jpg"
       - name: "excerpt"
         field:
@@ -192,7 +192,7 @@ prose:
         field:
           element: "text"
           label: "Imagen de previsualización"
-          help: "Copia la dirección de cualquier imagen en tu post"
+          help: "Copia la dirección de cualquier imagen en tu post y antepon una diagonal /"
           value: "assets/img/dummy.jpg"
       - name: "excerpt"
         field:
@@ -244,7 +244,7 @@ prose:
         field:
           element: "text"
           label: "Imagen de previsualización"
-          help: "Copia la dirección de cualquier imagen en tu post"
+          help: "Copia la dirección de cualquier imagen en tu post y antepon una diagonal /"
           value: "assets/img/dummy.jpg"
       - name: "excerpt"
         field:
