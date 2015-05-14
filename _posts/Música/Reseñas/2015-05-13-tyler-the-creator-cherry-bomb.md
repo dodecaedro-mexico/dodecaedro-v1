@@ -7,9 +7,9 @@ published: true
 title: "Tyler, the Creator - Cherry Bomb"
 thumbnail: "assets/img/posts/tyler-the-creator.jpg"
 author: Ramón Martínez Carrasco
-excerpt: 
-  "Tyler, the Creator es un rapero, productor, diseñador, director y en general como su nombre lo dice": un creador. Y uno excepcional.
+excerpt: "Tyler, the Creator es un rapero, productor, diseñador, director y en general como su nombre lo dice 'un creador'. Y uno excepcional."
 ---
+
 
 ![Tyler, the Creator - Cherry Bomb]({{site.baseurl}}/assets/img/posts/tyler-the-creator.jpg)
 
