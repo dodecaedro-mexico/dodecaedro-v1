@@ -10,7 +10,7 @@ layout: page
 
     <div class="row">
 
-        <ul class="index-orbit" data-orbit data-options="timer_speed: 3000">
+        <ul class="index-orbit show-for-large-only" data-orbit data-options="timer_speed: 3000">
             {% for post in site.posts limit:5 %}
                 <li data-orbit-slide="{{ post.title | slugify }}-{{ post.date | date_to_string | slugify }}">
                     {% if post.thumbnail %}
@@ -22,7 +22,7 @@ layout: page
             {% endfor %}
         </ul>
 
-        <div class="small-6 medium-3 columns">
+        <div class="large-3 show-for-large-only columns">
         {% for post in site.posts limit:5 %}
             <a data-orbit-link="{{ post.title | slugify }}-{{ post.date | date_to_string | slugify }}" class="index-orbit-link">
                 {{ post.title }}

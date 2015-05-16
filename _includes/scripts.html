@@ -5,8 +5,9 @@
   $('iframe').wrap('<div class="flex-video"></div>');
   $('.flex-video').wrap('<div class="small-12 columns"></div>');
   $(document).foundation();
-  $('.orbit-container:has(.index-orbit)').wrap('<div class="small-12 medium-9 columns"></div>');
-  $('div:has(.orbit-container)').append('<br><br>');
+  $('.orbit-container:has(.index-orbit)').wrap('<div class="small-12 medium-9 columns show-for-large-only"></div>');
+  $('.orbit-container:has(.index-orbit)').addClass('show-for-large-only');
+  $('div:has(.orbit-container)').append('<br class="show-for-large-only"><br class="show-for-large-only">');
 </script>
 <script>
 	$(window).load(function(){
