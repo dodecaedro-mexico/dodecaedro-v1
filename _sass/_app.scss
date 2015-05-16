@@ -39,3 +39,15 @@ article {
     overflow: hidden;
     img {width: 100%;}
 }
+
+.index-orbit-link {
+    background-color: #111111;
+    padding: rem-calc(20);
+    margin-bottom: rem-calc(4);
+    color: $white;
+    display: block;
+    &:hover, &.active {
+        background-color: $tuatara;
+        color: $white;
+    }
+}
