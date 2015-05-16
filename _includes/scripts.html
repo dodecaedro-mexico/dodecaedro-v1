@@ -5,6 +5,8 @@
   $('iframe').wrap('<div class="flex-video"></div>');
   $('.flex-video').wrap('<div class="small-12 columns"></div>');
   $(document).foundation();
+  $('.orbit-container:has(.index-orbit)').wrap('<div class="small-12 medium-9 columns"></div>');
+  $('div:has(.orbit-container)').append('<br>');
 </script>
 <script>
 	$(window).load(function(){

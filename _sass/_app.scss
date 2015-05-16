@@ -1,49 +1,41 @@
-/* Top Bar */
+@import "foundation/normalize";
+@import "foundation/settings";
+@import "foundation";
 
-    .top-bar, .top-bar-section li:not(.has-form) a:not(.button), .top-bar.expanded .title-area {background-color:  #000000;}
-    /* Remove Dropdown Caret */
-    .top-bar-section .has-dropdown > a {padding-right: 15px !important;}
-
-    .top-bar-section .has-dropdown > a:after {border-color: transparent transparent transparent;}
-
-    .top-bar-section #follow {background-color: #333333;}
-
-/* Footer */
-    
-    footer {
-        margin-top: 1rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        background-color: #000000;
-        color: #FFFFFF;
-    }
-
-    footer p {
+footer {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #000000;
+    color: #FFFFFF;
+    p {
         margin: 0;
         padding: 0;
         font-size: 0.8rem;
     }
-
-    footer .row div:nth-child(2) p {
+    .row div:nth-child(2) p {
         float: right;
     }
-
-    footer img {
+    img {
         padding-right: 0.8rem;
         padding-bottom: 0.5rem;
     }
+}
 
-/* Article */
-
-    article {
-        text-align: justify;
-    }
-    article img {
+article {
+    text-align: justify;
+    img {
         margin: 20px auto;
         display: block;
     }
-
     article .flex-video {
         margin-bottom: 20px;
         margin-top: 20px;
     }
+}
+
+.orbit-container {
+    height: 400px;
+    overflow: hidden;
+    img {width: 100%;}
+}
