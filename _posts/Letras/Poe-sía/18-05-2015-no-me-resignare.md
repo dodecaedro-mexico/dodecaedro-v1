@@ -5,13 +5,11 @@ category:
   - 'letras'
   - 'letras-poesia'
 author: Carlos Peredo
-excerpt: Cuando escribí esta poesía, tuve la sensación de que mi vida había sido modificada. Como si alguien hubiera alterado el guión original. Espero la disfruten tanto como yo.
+excerpt: Cuando escribí esta poesía, tuve la sensación de que mi vida había sido modificada.<br><br>Carlos Peredo.
 published: true
 ---
 
 Cuando escribí esta poesía, tuve la sensación de que mi vida había sido modificada. Como si alguien hubiera alterado el guión original. Espero la disfruten tanto como yo.
-
-**No me Resignaré**
 
 No me resignaré.<br>
 Ni ahora ni nunca.<br>
