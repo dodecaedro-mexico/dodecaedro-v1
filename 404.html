@@ -1,0 +1,30 @@
+---
+layout: page
+permalink: /404.html
+---
+	<h2>No pudimos dar con la página que buscas, tal vez la encuentres abajo en nuestros artículos o puedes volver al <a href="/">inicio</a></h2><hr>
+
+	<ul class="small-block-grid-1 medium-block-grid-6">
+    
+        {% for post in site.posts %}
+    
+            <li>
+                <a href="{{ post.url }}"> 
+                    {% if post.thumbnail %}
+                        <img alt="{{ post.title }}" src="{{ post.thumbnail }}" align="center" />
+                    {% else %}
+                        <img src="/assets/img/dummy.jpg" align="center" />
+                    {% endif %}
+                </a>
+            </li>
+            <li>
+                <a href="{{ post.url }}"><h4>{{ post.title }}</h4></a>
+                <p>
+                   {{ post.excerpt | truncate:140 }}
+                </p>
+                <a href="{{ post.url }}">Leer más ></a>
+            </li>
+    
+        {% endfor %}
+
+    </ul>
