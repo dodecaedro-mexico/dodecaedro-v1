@@ -14,6 +14,12 @@
   {% if page.thumbnail %}<meta content="{{ site.url }}{{ site.baseurl }}{{ page.thumbnail }}" property="og:image">{% else %}<meta content="{{ site.url }}{{ site.baseurl }}/assets/img/dummy.jpg" property="og:image">{% endif %}
   {% if page.categories %}{% for category in page.categories limit:1 %}<meta content="{{ category }}" property="article:section">{% endfor %}{% endif %}
   {% if page.tags %}{% for tag in page.tags %}<meta content="{{ tag }}" property="article:tag">{% endfor %}{% endif %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="http://dodecaedro.mx">
+  <meta name="twitter:creator" content="@dodecaedromx">
+  <meta name="twitter:title" content="{{ page.title }}">
+  {% if page.excerpt %}<meta content="{{ page.excerpt }}" property="twitter:description">{% else %}<meta content="{{ site.description }}" property="twitter:description">{% endif %}
+  {% if page.thumbnail %}<meta content="{{ site.url }}{{ site.baseurl }}{{ page.thumbnail }}" property="twitter:image">{% else %}<meta content="{{ site.url }}{{ site.baseurl }}/assets/img/dummy.jpg" property="twitter:image">{% endif %}
 
   <link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/app.css" | prepend: site.baseurl }}">
