@@ -23,14 +23,15 @@ El director Takeshi Kitano o también conocido como Beat Takeshi escribió una h
 - **Fotografía:** Katsumi Yanagishima
 - **Guion:** 	Takeshi Kitano
 - **País:** Japón 
-- **Elenco:** 	Takeshi Kitano, Yusuke Sekiguchi, Kayoko Kishimoto, Kayoko Kishimoto, Kazuko Yoshiyuki 
+- **Elenco:** 	Takeshi Kitano, Yusuke Sekiguchi, Kayoko Kishimoto, Kazuko Yoshiyuki 
 
 <hr>
 
 Masao es un niño en parte normal, va a la escuela, hace deporte y vive con su abuela en la región de Shitamachi, pero es un niño especial, ya que guarda un universo muy propio en él.
 
 Al salir de vacaciones de verano tiene que quedarse en su casa solo sin hacer nada ya que su abuela trabaja y no le puede prestar suficiente atención. Sin embargo ella quiere a su nieto y trabaja por él al tiempo que hace el papel de madre. Masao en su aburrida rutina vacacional y profunda soledad, por un descuido doméstico encuentra una foto de su madre. Solo, Masao la mira. toma su mochila y todo su dinero con un solo propósito, ir a buscar a su madre.
-Al ir Masao sin rumbo alguno, se topa a unos amigos de su abuela, una pareja disfuncional. El pequeño Masao les explica qué ocurre. Entonces entra en escena el esposo, Kikujiro (interpretado por Takeshi Kitano), que es un ex yakuza flojo y agresivo. el cual  es obligado por su esposa a llevar al niño a ver a su madre hasta Toyohashi. 
+
+Al ir Masao sin rumbo alguno éste se topa a unos amigos de su abuela, una pareja disfuncional. El pequeño Masao les explica qué ocurre a ella y al esposo, Kikujiro, un ex yakuza flojo y agesivo interpretado por Takeshi Kitano. Después de que Masao les explicara, Kikujiro es obligado por su esposa a llevar al niño a ver a su madre hasta Toyohashi.
 
 Ya con el rumbo anotado en una hoja de papel y 20,000 yenes, Kikujiro se lleva a Masao a apostar a las carreras de bicicletas. Desde ahí ambos notan que no tienen relación alguna. Al perder todo el dinero en las apuestas , Kikujiro se enfada con el retoño y lo comienza a tratar mal, pero al pasar por un percance fuerte donde Kikujiro salva a Masao (cosa que se tendrá que descubrir por tu cuenta) roban un taxi y se pierden en la carretera.
 
