@@ -16,14 +16,14 @@ El director Takeshi Kitano o también conocido como Beat Takeshi escribió una h
 
 <hr>
 
-- **Título:** Kikujiro  菊次郎の夏 (El Vereno de Kikujiro)
-- **Género:** Drama/Comedia/Road Movie
+- **Título:** Kikujiro  菊次郎の夏 (El Verano de Kikujiro)
+- **Géneros:** Drama Comedia Road Movie
 - **Director:** Takeshi Kitano
 - **Año:** 1999
 - **Fotografía:** Katsumi Yanagishima
 - **Guion:** 	Takeshi Kitano
 - **País:** Japón 
-- **Elenco:** 	Takeshi Kitano, Yusuke Sekiguchi, Kayoko Kishimoto, Kazuko Yoshiyuki 
+- **Elenco:** 	Takeshi Kitano, Yusuke Sekiguchi, Kayoko Kishimoto, Kazuko Yoshiyuki.
 
 <hr>
 
