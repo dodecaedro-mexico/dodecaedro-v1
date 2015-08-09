@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-{% include social.html %}
 <div class="row">
 
   <div class="small-12 medium-8 columns">
@@ -10,54 +9,37 @@ layout: default
       {{ content }}
       <hr>
       <p>
-        <em>Por: <!--<a href="/artistas/{{ page.author }}/">{{ page.author }}</a>-->{{ page.author }}</em>
-        <p>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-via="dodecaedromx" data-count="none" data-hashtags="Cultura">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
-        <div class="fb-like" data-href="http://dodecaedro.mx{{ page.url }}" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>
+        <em>Por: {{ page.author }}</em>
+        {% include social-buttons.html %}
       </p>
     </article>
-    <div id="disqus_thread"></div>
-      <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES * * */
-        var disqus_shortname = 'dodecaedromx';
-    
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-  </div>
+    {% include disqus.html %}
 
-  <div class="show-for-small-only small-12 columns">
-      Más en Dodecaedro
-      <ul>
-        {% for post in site.related_posts %}
+
+    <div class="show-for-small-only small-12 columns">
+        Más en Dodecaedro
+        <ul>
+          {% for post in site.related_posts limit:3 %}
           <li>        
             <a href="{{ post.url }}">{{ post.title }}</a><br/>
           </li>
-        {% endfor %}
-      </ul>
-  </div>
+          {% endfor %}
+        </ul>
+    </div>
 
-  <div class="show-for-medium-up medium-4 large-3 large-offset-1 columns">
-    {% if page.author %}
-    <p>
-      <br><br>
-      <img src="/assets/img/artistas/{{ page.author }}.jpg" alt="{{ page.author }}">
+    <div class="show-for-medium-up medium-4 large-3 large-offset-1 columns">
       <p>
-        <strong>Autor </strong>|&nbsp 
-        <!--<a href="/artistas/{{ page.author }}/">{{ page.author }}</a>-->{{ page.author }}
+        <br><br>
+        <img src="/assets/img/artistas/{{ page.author }}.jpg" alt="{{ page.author }}">
+        <p>
+          <strong>Autor </strong>| {{ page.author }}
+        </p>
+        <hr>
       </p>
+      <h4>Más en Dodecaedro</h4>
       <hr>
-    </p>
-    {% endif %}
-    <h4>Más en Dodecaedro</h4>
-    <hr>
-    <p>
-      {% for post in site.related_posts limit:3 %}
+      <p>
+        {% for post in site.related_posts limit:3 %}
         <a href="{{ post.url }}">
           <p>
             {% if post.thumbnail %}
@@ -71,8 +53,8 @@ layout: default
           </p>
           <hr>
         </a>
-      {% endfor %}
-    </p>
-  </div>
+        {% endfor %}
+      </p>
+    </div>
 
 </div>

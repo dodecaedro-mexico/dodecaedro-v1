@@ -1,0 +1,18 @@
+  <meta property="fb:app_id" content="878003108907396"/>
+  <meta content="{{ site.title }}" property="og:site_name">
+  <meta content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" property="og:title">
+  <meta content="{% if page.title %}article{% else %}website" property="og:type{% endif %}">
+  <meta content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" property="og:description">   
+  <meta content="{% if page.thumbnail %}{{ site.url }}{{ site.baseurl }}{{ page.thumbnail }}{% else %}{{ site.url }}{{ site.baseurl }}/assets/img/dummy.jpg{% endif %}" property="og:image">
+  {% if page.categories %}{% for category in page.categories limit:1 %}<meta content="{{ category }}" property="article:section">{% endfor %}{% endif %}
+  {% if page.tags %}{% for tag in page.tags %}<meta content="{{ tag }}" property="article:tag">{% endfor %}{% endif %}
+  {% if page.path contains '_posts' %}
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3&appId=878003108907396";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  {% endif %}

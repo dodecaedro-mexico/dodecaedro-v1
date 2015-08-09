@@ -1,4 +1,4 @@
-// @import "foundation/normalize";
+@import "foundation/normalize";
 @import "foundation/settings";
 @import "foundation";
 
@@ -28,17 +28,5 @@ article {
     .flex-video {
         margin-bottom: 20px;
         margin-top: 20px;
-    }
-}
-
-.index-orbit-link {
-    background-color: #111111;
-    padding: rem-calc(20);
-    margin-bottom: rem-calc(4);
-    color: $white;
-    display: block;
-    &:hover, &.active {
-        background-color: $tuatara;
-        color: $white;
     }
 }

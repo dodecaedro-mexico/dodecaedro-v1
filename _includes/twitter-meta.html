@@ -1,0 +1,6 @@
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="http://dodecaedro.mx">
+  <meta name="twitter:creator" content="@dodecaedromx">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}Dodecaedro.mx{% endif %}">
+  <meta content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}" property="twitter:description">
+  <meta content="{% if page.thumbnail %}{{ site.url }}{{ site.baseurl }}{{ page.thumbnail }}{% else %}{{ site.url }}{{ site.baseurl }}/assets/img/dummy.jpg{% endif %}" property="twitter:image">
